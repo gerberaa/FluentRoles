@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flunet Static Landing</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="custom-cursor"></div>
+  <div class="fluent-title-vertical">FLUENT</div>
+  <nav class="glass-navbar">
+    <div class="nav-logo">
+      <img src="https://file.notion.so/f/f/16355722-4df3-4a9d-ad83-693d60d9bceb/f2885673-c96c-4a60-adb0-eac5129fb2bc/Fluent_logo.svg?table=block&id=57dc1664-599a-486c-9281-f7f6ece592b8&spaceId=16355722-4df3-4a9d-ad83-693d60d9bceb&expirationTimestamp=1753070400000&signature=zwsPN_VDfsdZzONH5RwnfzUC_n8JsmdqTZiM2xWcXBw&downloadName=Fluent+logo.svg" alt="Fluent Logo" class="fluent-logo-img" width="44" height="44"/>
+    </div>
+    <div class="nav-menu">
+      <a class="nav-btn active" id="homeBtnNav" href="#hero">Home</a>
+      <a class="nav-btn" id="rolesBtnNav" href="#roles">Roles</a>
+      <div class="nav-underline"></div>
+    </div>
+  </nav>
+  <main class="hero-section" id="hero">
+    <div class="blob-container">
+      <canvas id="blob-canvas"></canvas>
+    </div>
+    <div class="fluent-title">FLUENT</div>
+  </main>
+  <section class="role-system-glass" id="roles">
+    <h2>🍳 Fluent Role System</h2>
+    <p>In our community, everyone has a chance to become a true Chef! Join activities, show your creativity, and earn unique roles. Below are all possible roles and the conditions for obtaining them:</p>
+    <div class="roles-list-glass">
+      <div class="role-glass verified">
+        <h3><span class="emoji" role="img" aria-label="Verified">✅</span> @Verified Chef</h3>
+        <ul>
+          <li><b>How to get:</b> Pass the Captcha verification.</li>
+          <li><b>Benefits:</b> Access to main community channels. The first step to active participation.</li>
+        </ul>
+      </div>
+      <div class="role-glass meme">
+        <h3><span class="emoji" role="img" aria-label="Meme">😹</span> @Meme Chef</h3>
+        <ul>
+          <li><b>For:</b> True meme lords!</li>
+          <li><b>How to get:</b> Weekly meme battle (best meme contest). Post your meme in 🦄｜memes. The best works are selected by the team, and their authors receive the @Meme Chef role.</li>
+          <li><b>Tip:</b> Want to become a meme legend? Show what you can do!</li>
+        </ul>
+      </div>
+      <div class="role-glass content">
+        <h3><span class="emoji" role="img" aria-label="Content">🎥</span> @Content Chef</h3>
+        <ul>
+          <li><b>For:</b> Creators of quality content.</li>
+          <li><b>How to get:</b> Write an article, make a Twitter thread, or shoot a video about Fluent. Content must be valuable, original, and high-quality. Submit your material to ✍｜content-submissions.</li>
+          <li><b>Note:</b> Superficial or weak content will not be considered.</li>
+        </ul>
+      </div>
+      <div class="role-glass helping">
+        <h3><span class="emoji" role="img" aria-label="Helping">🧑‍🏫</span> @Helping Chef</h3>
+        <ul>
+          <li><b>For:</b> Those who love helping newcomers.</li>
+          <li><b>How to get:</b> Actively communicate in Discord. Help other users navigate. Contribute to a friendly atmosphere.</li>
+          <li><b>Attention:</b> Spam does not count and may reduce your chances. Real help should be sincere and useful.</li>
+        </ul>
+      </div>
+      <div class="role-glass artist">
+        <h3><span class="emoji" role="img" aria-label="Artist">🎨</span> @Artist Chef</h3>
+        <ul>
+          <li><b>For:</b> Creative souls.</li>
+          <li><b>How to get:</b> Create a song, draw a picture, show any talent (poems, animations, etc.). We are looking for unique artistic expressions — don’t hold back your imagination!</li>
+        </ul>
+      </div>
+      <div class="role-glass ultimate">
+        <h3><span class="emoji" role="img" aria-label="Ultimate">👑</span> @Ultimate Chef</h3>
+        <ul>
+          <li><b>For:</b> The most active and creative members.</li>
+          <li><b>How to get:</b> Earn several other Chef roles. Consistently demonstrate activity, creativity, and loyalty. Be a role model for other members.</li>
+          <li><b>Benefit:</b> This is the most prestigious role — recognition of your contribution to the Fluent community.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="roles-footer-glass">Actively and passionately — and you will become a true Ultimate Chef!</p>
+  </section>
+  <footer class="glass-footer">
+    <div class="footer-socials">
+      <a class="footer-social" href="https://discord.com/" target="_blank" aria-label="Discord">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="28" height="28" rx="8" fill="#23272A"/>
+          <path d="M20.317 8.369a18.42 18.42 0 0 0-4.554-1.447.07.07 0 0 0-.073.035c-.197.348-.418.8-.573 1.158a17.13 17.13 0 0 0-5.13 0 12.583 12.583 0 0 0-.582-1.158.07.07 0 0 0-.073-.035 18.433 18.433 0 0 0-4.554 1.447.064.064 0 0 0-.03.027C2.99 12.06 2.2 15.66 2.49 19.213a.08.08 0 0 0 .03.055c1.915 1.406 3.77 2.263 5.593 2.83a.077.077 0 0 0 .084-.027c.43-.59.813-1.213 1.142-1.87a.076.076 0 0 0-.041-.104c-.62-.235-1.21-.52-1.783-.85a.077.077 0 0 1-.008-.127c.12-.09.24-.185.353-.28a.07.07 0 0 1 .073-.01c3.74 1.7 7.78 1.7 11.48 0a.07.07 0 0 1 .074.009c.114.095.234.19.354.28a.077.077 0 0 1-.007.127 10.77 10.77 0 0 1-1.784.85.076.076 0 0 0-.04.104c.33.657.713 1.28 1.142 1.87a.077.077 0 0 0 .084.027c1.83-.567 3.684-1.424 5.6-2.83a.08.08 0 0 0 .03-.055c.3-3.553-.48-7.153-2.36-10.817a.064.064 0 0 0-.03-.027ZM9.97 16.89c-1.13 0-2.06-1.04-2.06-2.31 0-1.27.91-2.31 2.06-2.31 1.16 0 2.09 1.05 2.06 2.31 0 1.27-.91 2.31-2.06 2.31Zm6.06 0c-1.13 0-2.06-1.04-2.06-2.31 0-1.27.91-2.31 2.06-2.31 1.16 0 2.09 1.05 2.06 2.31 0 1.27-.91 2.31-2.06 2.31Z" fill="#5865F2"/>
+        </svg>
+      </a>
+      <a class="footer-social" href="https://x.com/" target="_blank">
+        <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="28" height="28" rx="8" fill="url(#x-bg)"/>
+          <path d="M8 8l12 12M20 8L8 20" stroke="#00D9FF" stroke-width="2.2" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="x-bg" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#00D9FF"/>
+              <stop offset="1" stop-color="#000"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </a>
+    </div>
+    <div class="footer-copy">© 2025 Fluent</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
